@@ -25,7 +25,7 @@ SECRET_KEY = '^vv9=&aj-ql#fezve89hl74a@1%tvcpl-d75ux188g!_pkbbdc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://tapsearchwork.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['tapsearchwork.herokuapp.com']
 
 
 # Application definition
