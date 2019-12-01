@@ -136,3 +136,7 @@ Caused by: org.elasticsearch.common.compress.NotXContentException: Compressor de
 	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:62) ~[elasticsearch-5.6.8.jar:5.6.8]
 	... 30 more
 [2019-12-01T17:12:43,120][INFO ][o.e.m.j.JvmGcMonitorService] [tTK7dti] [gc][9940] overhead, spent [398ms] collecting in the last [1.4s]
+[2019-12-01T20:07:15,000][INFO ][o.e.n.Node               ] [tTK7dti] stopping ...
+[2019-12-01T20:07:15,411][INFO ][o.e.n.Node               ] [tTK7dti] stopped
+[2019-12-01T20:07:15,414][INFO ][o.e.n.Node               ] [tTK7dti] closing ...
+[2019-12-01T20:07:15,492][INFO ][o.e.n.Node               ] [tTK7dti] closed
