@@ -1,1 +1,1 @@
-hweb: python3 manage.py runserver 0.0.0.0:$PORT --noreload
+web: python3 manage.py runserver 0.0.0.0:$PORT --noreload
