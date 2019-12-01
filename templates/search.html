@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br><br>
+<h1 style="margin-left: 500px">Find paragraphs by entering words</h1>
+<div style="margin-top: 100px">
+<form method="get">
+
+    <input  id="q" name="q" type="text" style="margin-left: 500px;height: 100px;width: 500px;font-size: 20px">
+
+</form>
+<div style="margin-left: 100px;margin-top: 30px;font-size: 30px">
+{% for item in posts %}
+    <hr>
+  <p style="margin-left: 500px">{{ item.para }}</p>
+
+  <br>
+
+{% endfor %}
+<hr>
+</div>
+
+</div>
+</body>
+</html>
