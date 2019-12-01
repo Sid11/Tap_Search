@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_elasticsearch_dsl',
-    'tap.apps.TapConfig',
+    'website.apps.TapConfig',
 ]
 
 MIDDLEWARE = [

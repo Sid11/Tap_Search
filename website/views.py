@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse , redirect
-from tap.document import PostDocument , ImageForm
+from website.document import PostDocument , ImageForm
 from elasticsearch import Elasticsearch
 from .models import Post,Image
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])

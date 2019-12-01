@@ -1,5 +1,5 @@
 from django_elasticsearch_dsl import DocType, Index
-from tap.models import Post , Image
+from website.models import Post , Image
 from django import forms
 posts = Index('posts')
 
