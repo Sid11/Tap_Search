@@ -15,7 +15,7 @@ def add(request):
         p = Post(para=a)
         p.save()
         print("Value of a ", str(a))
-        return HttpResponse("Para is " + str(a))
+        return HttpResponse("Paragraph has been successfully added. ")
     else:
         return HttpResponse("Please fill in some data")
 
