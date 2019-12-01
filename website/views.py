@@ -2,7 +2,6 @@ from django.shortcuts import render, HttpResponse , redirect
 from website.document import PostDocument , ImageForm
 from elasticsearch import Elasticsearch
 from .models import Post,Image
-es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 # Create your views here.
 
 def home(request):

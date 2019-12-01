@@ -126,8 +126,8 @@ STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 ELASTICSEARCH_DSL = {
     'default': {
-        'hosts': 'localhost:9200'
-    },
+        'hosts': 'https://elastic:I3tnPJWV2bsq2jSiXuDMlEld@b0943016ef9146dcbb4006a5d58b5863.us-east-1.aws.found.io:9243'
+    }
 }
 
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
