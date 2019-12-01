@@ -1,4 +1,4 @@
-# Tap Search -
+# Tap Search 
 #### A project that takes in paragraph as input and assigns each of them unique ID. It has been built by taking reference of elasticsearch database.
 
 ### Technology Stack :
@@ -108,7 +108,9 @@ https://tapsearchwork.herokuapp.com/image
 
 
 
+#### Work I am still working on :
 
+To find most similar images using the keywords extracted from the above algorithm.
 
 
 
